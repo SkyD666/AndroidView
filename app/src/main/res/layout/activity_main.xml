@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btn_rv"
+        android:layout_width="match_parent"
+        android:text="RecyclerView"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btn_vp"
+        android:layout_width="match_parent"
+        android:text="ViewPager"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btn_fragment2"
+        android:layout_width="match_parent"
+        android:text="Fragment"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btn_tab_layout"
+        android:layout_width="match_parent"
+        android:text="TabLayout"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btn_homework2"
+        android:layout_width="match_parent"
+        android:text="Homework2"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btn_homework3"
+        android:layout_width="match_parent"
+        android:text="Homework3"
+        android:layout_height="wrap_content" />
+</LinearLayout>
